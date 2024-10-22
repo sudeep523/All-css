@@ -1,0 +1,132 @@
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  height: 90vh;
+
+  background: url('https://images.pexels.com/photos/186980/pexels-photo-186980.jpeg?cs=srgb&dl=pexels-tahir-shaw-50609-186980.jpg&fm=jpg') no-repeat center center; 
+
+  background-size: cover;
+
+}
+
+
+
+.weather-container {
+
+  background-color: rgba(22, 186, 235, 0.9); 
+
+  border-radius: 8px;
+
+  padding: 20px;
+
+  max-width: 400px;
+
+  margin: auto; 
+
+  margin-top: 100px; 
+
+  box-shadow: 0 4px 8px rgba(11, 208, 218, 0.2);
+
+}
+
+
+
+h1 {
+
+  text-align: center;
+
+  color: #f8f5f5;
+
+}
+
+
+
+form {
+
+  display: flex;
+
+  justify-content: center;
+
+  margin-bottom: 20px;
+
+}
+
+
+
+input {
+
+  padding: 10px;
+
+  border: 1px solid #ccc;
+
+  border-radius: 4px;
+
+  margin-right: 10px;
+
+  flex: 1; 
+
+}
+
+
+
+button {
+
+  padding: 10px 15px;
+
+  border: none;
+
+  border-radius: 4px;
+
+  background-color: #007BFF; 
+
+  color: white;
+
+  cursor: pointer;
+
+}
+
+
+
+button:hover {
+
+  background-color: #1ee235; 
+
+}
+
+
+
+.error {
+
+  color: red;
+
+  text-align: center;
+
+}
+
+
+
+.weather-info {
+
+  text-align: center;
+
+}
+
+
+
+.weather-info h2 {
+
+  margin: 10px 0;
+
+}
+
+
+
+.weather-info p {
+
+  margin: 5px 0;
+
+}
+
